@@ -152,6 +152,9 @@ let featuresMobileSwiper = new Swiper(".features-slider", {
 let reviewsSwiper = new Swiper(".reviews-slider", {
     slidesPerView: 3,
     spaceBetween: 20,
+    centeredSlides: false,
+    slidesPerGroupSkip: 1,
+    grabCursor: true,
     breakpoints: {
         '767': {
             slidesPerView: 3,
